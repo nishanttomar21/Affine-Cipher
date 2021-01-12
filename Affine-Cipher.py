@@ -15,7 +15,7 @@ def take_input():
     print("\t\t\tAFFINE CIPHER")
     print("#####################################\n\n")
     message = input("Enter your message to be encrypted (use capital letters and don't enter special characters): ")
-    return message.upper()  # Making text input to small case
+    return message.upper()                                                                  # Making text input to upper case
 
 
 # To encrypt the message
