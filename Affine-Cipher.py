@@ -42,7 +42,7 @@ def encryption(message):
 def key_inverse():
     inverse = ""
 
-    # Loop from 0 -> 26
+    # Loop from 0 -> 26 (Brute force method)
     for i in range(0, 26):
         flag = int((key1 * i) % 26)
 
